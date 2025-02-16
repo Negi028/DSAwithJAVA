@@ -17,7 +17,7 @@ public class butterfly {
             for(int col=1;col<=row2;col++){
                 System.out.print("*");
             }
-            for(int space2=1;space2<2*(4-row2);space2++){
+            for(int space2=1;space2<=2*(4-row2);space2++){
                 System.out.print(" ");
             }
             for(int col=1;col<=row2;col++){
