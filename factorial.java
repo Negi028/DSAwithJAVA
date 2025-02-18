@@ -7,7 +7,7 @@ public class factorial {
     public static void printFact(int n){
         if(n<0){
             System.out.println("Invalid number");
-            return;
+            return;// no need to track all code after this if input is invalid it will go back 
         }
         int fact=1;
         //loops
