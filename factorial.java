@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 public class factorial {
     public static void printFact(int n){
+        if(n<0){
+            System.out.println("Invalid number");
+            return;
+        }
         int fact=1;
         //loops
         for(int i=n;i>=1;i--){
