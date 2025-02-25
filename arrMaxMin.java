@@ -16,8 +16,8 @@ public class arrMaxMin {
             num[i]=sc.nextInt();
         }
         //for accessing max and min value firstly initialize max and min value then compare to elements 
-        int min=Integer.MAX_VALUE;//asssume that min has maxximum number then compare with smaller elemnts 
-        int max=Integer.MIN_VALUE;//assume that max has minimum number then compare with larger elemtns and update
+        int min=Integer.MAX_VALUE;//asssume that min has maxximum number then compare with smaller elemnts infinity
+        int max=Integer.MIN_VALUE;//assume that max has minimum number then compare with larger elemtns and update -infinity
 
         for(int i=0;i<size;i++){ 
             if(num[i]>max){
