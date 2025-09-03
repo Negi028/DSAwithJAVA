@@ -19,7 +19,7 @@ public class diplayFromHeadLL {
         d.next=e;
         
         Node temp=a;
-        while (temp.next!=null) { 
+        while (temp!=null) { 
             System.out.print(temp.data+" ->");
             temp=temp.next;
         }
